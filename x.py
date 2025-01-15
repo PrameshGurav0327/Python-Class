@@ -1,83 +1,93 @@
-'''# ---------- Q.1 Print Statement ---------- 
+'''n = 153
+sum = 0
+order = len(str(n))
+copy_n = n
+while(n>0):
+    digit = n%10
+    sum += digit ** order
+    n = n//10
 
-#  Print the phrase "Hello, World!" using the print statement. 
+    if(sum == copy_n):
+        print("f{copy_n} is an Armstrong number")
+    else:
+        if(sum ==copy_n):
+            print("f{copy_n} is not an Armstrong number")'''
+'''
+# n = int(input("Enter any number: "))
 
-print("Hello","World", sep=' ', end='\n', flush=False)
+# for i in range(1 ,6):
+#     print (i*n)
+#     print ("Another loop started") 
 
-# Print three different messages on separate lines.
+# n = int(input("Ener any Number"))
 
-print("Hello")
-print("World")
-print("How are you?")
-
-# Print three different messages on separate lines using one print statement.
-
-print("Hello","World","How are you?" , sep="\n")
-
-#Concatenate and print two variables
-
-a = 10
-b = 20
-
-print(a+b)
-
-# Print three words separated by a specific character ‘$’.
-print("Hello", "World", "How are you?", sep='$')
-
-# Print two messages on the same line using the end parameter.
-
-print("Hi!,What are you doing?", end=' ')
-print("Nothing. I am just chilling.")
-
-# Print a message with quotes around it.
-
-print("Hello World")
-
-# Print the result of a Boolean expression.
-
-print(10>5)
+# i = 5
+# while (i>11):
+#     print("i" * "n" : i*n)
+#     i+=1
 
 
-# -------Q.2 Type casting: --------
+# n = int(input("Type any number"))
 
-# Q1: Convert an integer to a float. 
-
-a =10
-print(float(a))
-
-# Q2: Convert a float to an integer.
-
-b = 10.5
-print(int(b))
-
-# Q3: Convert a string to an integer.
-
-c = "10"
-
-print(int(b))
-
-# Q4: Convert a string to a float.
-
-d = "10.5"
-
-print(float(d))
-
-# Q.5 Convert an integer to a string.
-
-e = 20
-
-print(str(e))'''
-
-# Q.6 Convert a float to a string. 
-
-a = 100.5
-
-print(str(a))
-
-# Q.7  Convert a binary string to an integer. 
-
-b = "1010"
-
-print(int(b,2))
+# a = 1
+# while (6>n):
+#     n+=1
+#     print(1,5)
+#     print("end loop")
 
 
+# Get the number from the user
+# n = int(input("Type any number: "))
+
+
+
+# n = "Avenger"
+# print(n[-3:])
+
+# x = "avenger"
+
+'''
+
+# def avenger(f_name= "pramesh", age="20"):
+#     print("first name is", f_name, "Age is", age)
+# avenger("Steve")
+
+print("-------------------------------------------")
+
+# def show(*x):
+#     print(x)
+# show(100, 200, 300)
+
+print("--------------------------------------------------------")
+
+
+# def show(**x):
+#     print( x ["a"], x["b"])
+
+# show(a = 100, b = 200, c = 300)
+
+
+print("--------------------Global Variable-------------------------")
+
+'''x=100
+
+def show():
+    print("variable indside function", x)
+
+show()
+
+print("variable outside function", x)'''
+
+print("-----------------Local Variable-------------------")
+
+x=100
+
+def show():
+    global x
+    x=200
+    print("Variable inside function",x)
+    print("variable indside function",x)
+
+show()
+
+print("variable outside function", x)
