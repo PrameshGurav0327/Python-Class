@@ -52,6 +52,7 @@ while(n>0):
 #     print("first name is", f_name, "Age is", age)
 # avenger("Steve")
 
+'''
 print("-------------------------------------------")
 
 # def show(*x):
@@ -69,14 +70,14 @@ print("--------------------------------------------------------")
 
 print("--------------------Global Variable-------------------------")
 
-'''x=100
+x=100
 
 def show():
     print("variable indside function", x)
 
 show()
 
-print("variable outside function", x)'''
+print("variable outside function", x)
 
 print("-----------------Local Variable-------------------")
 
@@ -91,3 +92,42 @@ def show():
 show()
 
 print("variable outside function", x)
+
+'''
+# a = str("Hello")
+
+# def replace_character(str,curr_char,new_char,output):
+#      input(replace_character(""))
+
+
+# print("------------Fibnocci,Using recursive Function----------------")
+
+# def febonacci(n):
+#     if n<=1:
+#         return n
+
+'''def sum_of_digits(n):
+    if n < 10:
+        return n
+    else:
+        return n % 10 + sum_of_digits(n//10)
+    
+n = 123  # Example number
+print(sum_of_digits(n))'''
+
+# print("-----------Implicit and explicit type conversion--------------------")
+
+# x=5
+# y=2.5
+
+# result=x+y
+# print(result)
+# print(type(result))
+
+print("---------------  ----------------------")
+
+a = "Hi my name is pramesh."
+
+
+
+
