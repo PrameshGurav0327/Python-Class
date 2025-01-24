@@ -126,7 +126,12 @@ print(sum_of_digits(n))'''
 
 print("---------------  ----------------------")
 
-a = "Hi my name is pramesh."
+# a = input("Write Something: " )
+
+# print(a)
+# print(a.count("$"))
+
+# 1. list of input only specific data-type
 
 
 
