@@ -1,4 +1,4 @@
-'''n = 153
+n = 153
 sum = 0
 order = len(str(n))
 copy_n = n
@@ -11,7 +11,7 @@ while(n>0):
         print("f{copy_n} is an Armstrong number")
     else:
         if(sum ==copy_n):
-            print("f{copy_n} is not an Armstrong number")'''
+            print("f{copy_n} is not an Armstrong number")
 '''
 # n = int(input("Enter any number: "))
 
@@ -134,5 +134,16 @@ print("---------------  ----------------------")
 # 1. list of input only specific data-type
 
 
+# Given input
+n = 5
 
+# Initialize factorial variable
+fact = 1
+
+# Calculate factorial
+for i in range(1, n + 1):
+    fact *= i
+
+# Print the result
+print(fact)
 

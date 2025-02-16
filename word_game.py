@@ -28,5 +28,10 @@ words = [["hi","hay","day","had","lay","dal","lad","lid","hold","lady","hail"],
 
           "cope","crap","crew","crop","pace"]];
 
-level = 5
+level = 0
+lives = 5
+score = 0
 
+c = "c"
+if c in letters[level<5]:
+    print("{} format(c) end='word'")
